@@ -2,39 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<>, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> document </title>
+    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>hello world</p>
-    <a href=linked.html target="_blank"> go to another page</a>
-    <iframe <iframe width="560" height="315" 
-        src="https://www.youtube.com/embed/RgqylYjgItY" 
-        title="YouTube video player" 
-        frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-        allowfullscreen>
-</iframe>
-<table>
-    <thead>
-    <tr>
-        <th> subjects </th>
-        <th> marks</th>
-    </tr>
-    </thead>
-    <tbody>
-        <tr>
-        <td> english</td>
-        <td> 50 </td>
-        </tbody>
-        <tbody>
-        <td> maths</td>
-        <td> 60</td>
-        </table>
-        </body>
-    </tr>
-    </tbody>
-
-</table>
+    <div class="container">
+    <form>
+        <h1 class="main_head"> PAYMENT FORM</h1>
+        <h2> CONTACT DETAILS </h2>
+        <p>Name: <input type="text" name="name" id="name" required placeholder="Enter Name" ></p>
+        <p> gender </p> <p> male: <input type="radio" name="gender" placeholder="" id="gender">
+            female: <input type="radio" name="gender" id="gender">
+        </p>
+        <p>address: <textarea name="address" id="address"></textarea></p>
+        <p> email: <input type="email" id="email" name="email"></p>
+        <p> pincode: <input type="number" name="pincode" id="pincode"</p>
+        <p> card type:
+            <select name="cardtype" id="cardtype">
+                <option value=select a card type></option>
+                <option value="debit"> debit </option>
+                <option value="credit"> credit </option>
+            </select>
+        </p>
+        
+        <p> card number: <input type="number" name="card number" id="card number"></p>
+        <p> expiration date: <input type="date" name="exp" id="exp"></p>
+        <input type="submit" value="submit">
+    </form>
+    </div>
 </body>
 </html>
+ git config --global user.email "tgoyal942@gmail.com"
+  git config --global user.name "tanvi"
+  git config --list
+git --version
+git branch -a
